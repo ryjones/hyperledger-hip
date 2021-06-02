@@ -1,7 +1,7 @@
 ---
 layout: default
-title: HIP Template
-parent: Hyperledger Firefly
+title: Hyperledger Firefly
+parent: Hyperledger Improvement Proposals
 ---
 
 # Hyperledger FireFly Proposal
