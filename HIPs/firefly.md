@@ -29,7 +29,7 @@ _(Note - more sponsors are being added over the next week)_
 
 ## Abstract
 
-FireFly is a multiparty system for enterprise data flows, powered by blockchain. It solves all of the layers of complexity that sit between the low level blockchain and high level business processes and user interfaces. FireFly enables developers to build blockchain apps for enterprises up to 100x faster by allowing them to focus on business logic instead of infrastructure.
+FireFly is a multiparty system for enterprise data flows, powered by blockchain. Enterprise use cases often require a mix of off-chain and on-chain activities to implement a use case end-to-end.  FireFly provides a set of pre-integrated runtimes and an API to build event-driven, multi-party applications with a combination of off-chain data flows and on-chain transactions. 
 
 ## Context
 
@@ -43,13 +43,13 @@ We’ve observed that the specific application and middleware components and how
 
 ## Dependent Projects
 
-Hyperledger FireFly requires a blockchain protocol to run. Specifically, FireFly’s architecture addresses two critical aspects of decentralized multiparty systems, data immutability and global ordering, by building on top of an underlying blockchain protocol. Support is included for **Hyperledger Fabric**; Enterprise Ethereum variants including Quorum and **Hyperledger Besu**; and Corda.
+Hyperledger FireFly requires a blockchain protocol to run. FireFly leverages two fundamental aspects of the blockchain protocol for its integrity - data immutability and global ordering. At time of proposal, full support is included for is included for Enterprise Ethereum variants including Quorum and **Hyperledger Besu**.  Support for **Hyperledger Fabric** is in active design and planned to be implemented.  Support for Corda was available in the prior version of code (called KAT), but requires additional design and implementation to port to FireFly.  The priority for Corda support will be set by the FireFly community.  
 
-In addition, Hyperledger FireFly is designed to be very pluggable, and current or future plug points for other technology include:
+A key design principle for Hyperledger FireFly is to be a sort of "umbrella system" - to enable a set of technologies to be used together via a simple API. For example, consortia often need different levels of privacy in data exchange and often leverage different types of compute to execute business logic based upon business requirements.  FireFly therefore intends to integrate in popular technologies that consortia use together.  A simple plugin interface was designed to wrap these technologies.  Examples include:
 
-- IPFS for broadcast data
-- NodeRed for low code/no code processing logic
-- **Hyperledger Avalon** for verifiable off-chain processing logic
+- IPFS (InterPlanetary File System) for broadcast data
+- NodeRed for low code/no code processing logic 
+- **Hyperledger Avalon** for verifiable off-chain processing logic 
 - **Hyperledger Cactus** for cross-chain asset transfers and DvP flows
 
 ## High Level Problem Statement
