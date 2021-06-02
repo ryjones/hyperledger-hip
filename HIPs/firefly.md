@@ -27,8 +27,6 @@ Hyperledger FireFly
 - Eugene Yarmosh, Hyperledger Avalon project lead ([EugeneYarmosh@msn.com](mailto:EugeneYarmosh@msn.com))
 - Robert Drost, PhD ([rjdrost@alumni.stanford.edu](mailto:rjdrost@alumni.stanford.edu))
 
-_(Note - more sponsors are being added over the next week)_
-
 ## Abstract
 
 FireFly is a multiparty system for enterprise data flows, powered by blockchain. Enterprise use cases often require a mix of off-chain and on-chain activities to implement a use case end-to-end.  FireFly provides a set of pre-integrated runtimes and an API to build event-driven, multi-party applications with a combination of off-chain data flows and on-chain transactions. 
@@ -319,8 +317,6 @@ We have the following companies committed to contributing:
 - Kaleido: 6 developers to deliver FireFly core, plugins for Enterprise Ethereum, Fabric and Corda, and administrative console UI
 - Atato: 1 developer to deliver enhancement to ethconnect and token related features
 - ConsenSys Health: 1 developer to help with developing plugins for Trusted Execution Environments and enhancements critical to the healthcare industry
-
-_(more committed resources being confirmed)_
 
 ## How to
 
