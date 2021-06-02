@@ -6,7 +6,7 @@ parent: Hyperledger Improvement Proposals
 
 # Hyperledger FireFly Proposal
 
-[https://github.com/kaleido-io/hyperledger-hip/blob/gh-pages/HIPs/0000-template.md](https://github.com/kaleido-io/hyperledger-hip/blob/gh-pages/HIPs/0000-template.md)
+[HIPs/firefly.md](./firefly.md)
 
 ## HIP Identifier
 
