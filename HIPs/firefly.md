@@ -179,6 +179,10 @@ The following should be clear from the diagram:
   - Entitlement verification (current owner of the non-fungible token)
 - Majority of the interactions in the system happen off-chain, with secure document transfers and encrypted private messages
 
+NOTE: at a high level you can choose whether to use a token to represent the off-chain message/doc or not, it's not always a requirement for the asset to be globally unique. In certain use cases, the requirement can be simply that the sender and receiver both got cryptographic proof of the fact of the exchange (by both sides providing signatures over the hash of the content). Tn these cases the pinning tx can simply record the hashes (and can be submitted from a random signing account).
+
+But if double spend protection is needed with tying the asset to a token that must be visible to the whole network, one can add protection of privacy leakage by submitting fake txs as noise. Since the input of the txs are only hashes, external parties can't tell if they were for real message/doc exchanges or not.
+
 ## FireFly Details and Internals
 
 ### Pluggable Architecture
