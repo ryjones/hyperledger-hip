@@ -310,13 +310,13 @@ Remote agents for the blockchain interface are provided as follows:
 
 ## Effort and resources
 
-The FireFly code base’s current version is in production with multiple large consortiums, so Kaleido is fully committed to continued support for the open source project with currently 6 developers working full time on the code base.
+The FireFly code base’s current version (typescript based) is in production with multiple large consortiums. The proposed code base includes the current version as well as generation-2 with golang as the primary language for the core. As a result, Kaleido is fully committed to continued support for the open source project with currently 6 developers working full time on the code base.
 
-We have the following companies committed to contributing:
+We have the following companies committed to contributing as of this proposal:
 
-- Kaleido: 6 developers to deliver FireFly core, plugins for Enterprise Ethereum, Fabric and Corda, and administrative console UI
-- Atato: 1 developer to deliver enhancement to ethconnect and token related features
-- ConsenSys Health: 1 developer to help with developing plugins for Trusted Execution Environments and enhancements critical to the healthcare industry
+- Kaleido: 6 developers to deliver FireFly core, plugins for Enterprise Ethereum, Fabric and Corda, and administrative console UI (maintaining the current version, developing the new version)
+- Atato: 1 developer to deliver enhancement to ethconnect and token related features (the same ethconnect is used by both FireFly versions)
+- ConsenSys Health: 1 developer to help with developing plugins for Trusted Execution Environments and enhancements critical to the healthcare industry (developing plugins for the new version)
 
 ## How to
 
