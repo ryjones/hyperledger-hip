@@ -24,6 +24,7 @@ Hyperledger FireFly
 - Gari Singh ([gari.r.singh@gmail.com](mailto:gari.r.singh@gmail.com))
 - Patrick Schmid, PhD ([schmid@theinstitutes.org](mailto:schmid@theinstitutes.org))
 - David Metcalf, PhD ([dmetcalf@ist.ucf.edu](mailto:dmetcalf@ist.ucf.edu))
+- Eugene Yarmosh, Hyperledger Avalon project lead ([EugeneYarmosh@msn.com](mailto:EugeneYarmosh@msn.com)
 
 _(Note - more sponsors are being added over the next week)_
 
@@ -287,7 +288,7 @@ Sometimes underestimated is the importance, and complexity, of synchronizing the
 
 FireFly provides a rugged, enterprise-grade runtime and simple event-driven REST API model, so that developers can focus on solving interesting business problems - rather than re-building plumbing. Second order problems are also addressed, like high throughput through batching of on-chain transactions, and providing n-way application scale while retaining deterministic ordering.
 
-The pluggable architecture allows the underlying infrastructure components to be swapped out, without changing the application. That includes the database, blob store, private messaging technology, and even the blockchain itself.
+The pluggable architecture allows the underlying infrastructure components to be swapped out, without changing the application. That includes the database, blob store, private messaging technology, and even the blockchain itself (with another supported blockchain protocol).
 
 ![Event Sequencing](../assets/event-sequencing.svg "Event Sequencing")
 
