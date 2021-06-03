@@ -24,7 +24,7 @@ Hyperledger FireFly
 - Gari Singh ([gari.r.singh@gmail.com](mailto:gari.r.singh@gmail.com))
 - Patrick Schmid, PhD ([schmid@theinstitutes.org](mailto:schmid@theinstitutes.org))
 - David Metcalf, PhD ([dmetcalf@ist.ucf.edu](mailto:dmetcalf@ist.ucf.edu))
-- Eugene Yarmosh, Hyperledger Avalon project lead ([EugeneYarmosh@msn.com](mailto:EugeneYarmosh@msn.com))
+- Eugene Yarmosh ([EugeneYarmosh@msn.com](mailto:EugeneYarmosh@msn.com))
 - Robert Drost, PhD ([rjdrost@alumni.stanford.edu](mailto:rjdrost@alumni.stanford.edu))
 - Arun S M ([arun.s.m.cse@gmail.com](mailto:arun.s.m.cse@gmail.com))
 
