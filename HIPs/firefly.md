@@ -26,6 +26,7 @@ Hyperledger FireFly
 - David Metcalf, PhD ([dmetcalf@ist.ucf.edu](mailto:dmetcalf@ist.ucf.edu))
 - Eugene Yarmosh, Hyperledger Avalon project lead ([EugeneYarmosh@msn.com](mailto:EugeneYarmosh@msn.com))
 - Robert Drost, PhD ([rjdrost@alumni.stanford.edu](mailto:rjdrost@alumni.stanford.edu))
+- Arun S M ([arun.s.m.cse@gmail.com)](mailto:arun.s.m.cse@gmail.com))
 
 ## Abstract
 
