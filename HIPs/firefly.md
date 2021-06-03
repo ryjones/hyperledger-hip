@@ -314,9 +314,9 @@ The FireFly code base’s current version (typescript based) is in production wi
 
 We have the following companies committed to contributing as of this proposal:
 
-- Kaleido: 6 developers to deliver FireFly core, plugins for Enterprise Ethereum, Fabric and Corda, and administrative console UI (maintaining the current version, developing the new version)
-- Atato: 1 developer to deliver enhancement to ethconnect and token related features (the same ethconnect is used by both FireFly versions)
-- ConsenSys Health: 1 developer to help with developing plugins for Trusted Execution Environments and enhancements critical to the healthcare industry (developing plugins for the new version)
+- Kaleido: 6 developers to contribute to FireFly, including FireFly core, plugins for Enterprise Ethereum, Fabric and Corda, plugins for secure data exchange, developer CLI tools and administrative console UI (maintaining the current version, developing the new version)
+- Atato: 1 developer to contribute to FireFly, including enhancement to ethconnect and token related features (the same ethconnect is used by both FireFly versions)
+- ConsenSys Health: 1 developer to contribute to FireFly, including developing plugins for Trusted Execution Environments and enhancements critical to the healthcare industry (primarily for the new version)
 
 ## How to
 
